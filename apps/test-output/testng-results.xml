@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-27T20:31:21 IST" name="Default suite" finished-at="2023-08-27T20:31:48 IST" duration-ms="26951">
+    <groups>
+    </groups>
+    <test started-at="2023-08-27T20:31:21 IST" name="Default test" finished-at="2023-08-27T20:31:48 IST" duration-ms="26951">
+      <class name="Salesforce.oppurunity_TC01_CreateNewDashboard">
+        <test-method is-config="true" signature="browserinitiateandlogin()[pri:0, instance:Salesforce.oppurunity_TC01_CreateNewDashboard@97e93f1]" started-at="2023-08-27T20:31:21 IST" name="browserinitiateandlogin" finished-at="2023-08-27T20:31:24 IST" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitiateandlogin -->
+        <test-method signature="createNewDashboard()[pri:0, instance:Salesforce.oppurunity_TC01_CreateNewDashboard@97e93f1]" started-at="2023-08-27T20:31:24 IST" name="createNewDashboard" finished-at="2023-08-27T20:31:48 IST" duration-ms="24175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDashboard -->
+      </class> <!-- Salesforce.oppurunity_TC01_CreateNewDashboard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
