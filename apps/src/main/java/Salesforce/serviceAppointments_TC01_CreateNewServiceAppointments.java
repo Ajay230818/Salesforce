@@ -52,6 +52,7 @@ public class serviceAppointments_TC01_CreateNewServiceAppointments {
 		driver.findElement(By.xpath("(//input[@type='search'])[2]")).sendKeys(Keys.ENTER);
 		String confirmAppnum="//a[text()='"+AppointmentNumber+"']";
 		driver.findElement(By.xpath(confirmAppnum)).isDisplayed();
+		driver.close();
 	}
 
 }

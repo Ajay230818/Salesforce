@@ -32,6 +32,7 @@ public class serviceAppointments_TC02_CancelNewServiceAppointments {
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//button[text()='Confirm Cancellation']")).click();
 		driver.findElement(By.xpath("//span[@class='toastMessage slds-text-heading--small forceActionsText']")).isDisplayed();
+		driver.close();
 	}
 
 }
