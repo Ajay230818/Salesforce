@@ -17,7 +17,7 @@ public class Contact_TC001_CreateContact {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 		driver.get("https://login.salesforce.com/");
-		driver.findElement(By.id("username")).sendKeys("sahanabaasha@tcs.com");
+		driver.findElement(By.id("username")).sendKeys("sahanabaasha@gmail.com");
 		driver.findElement(By.id("password")).sendKeys("Sahana@123");
 		driver.findElement(By.id("Login")).click();
 		driver.findElement(By.xpath("//div[@class='slds-icon-waffle']")).click();

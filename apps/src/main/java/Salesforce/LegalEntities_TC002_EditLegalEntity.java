@@ -32,7 +32,7 @@ public class LegalEntities_TC002_EditLegalEntity {
 		driver.get("https://login.salesforce.com/");
 
 		//SendKeys-username
-		driver.findElement(By.id("username")).sendKeys("sahanabaasha@tcs.com");
+		driver.findElement(By.id("username")).sendKeys("sahanabaasha@gmail.com");
 
 		//Sendkeys password
 		driver.findElement(By.id("password")).sendKeys("Sahana@123");
